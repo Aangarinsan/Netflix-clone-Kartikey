@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    font-family:sans-serif;
+}
+.extdiv{
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+                    rgba(0,0,0,0.7)),
+                      url(netflix-background.jpg);
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#Netflix-logo{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+#lansin{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lansin-child{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#select1-op{
+    background-color: inherit;
+    opacity: 100%;
+    background: transparent;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    font-weight: 550;
+}
+#sign-in-parent{
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+}
+#sign-in-parent:hover{
+    background-color:darkred;
+    transition: 0.2s;
+}
+#sign-in{
+    border-width: 5px;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 600;
+    color: white;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.membership{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.membership-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+.mem-low{
+    text-align: center;
+}
+#heading1-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#para1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#para2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.email-getst{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#email{
+    line-height: 1.5;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-right: 130px; 
+    margin:5px;
+}
+#email::placeholder{
+    color: rgb(175, 174, 174);
+    font-size: 1.1rem;
+}
+#get-started{
+    background-color: red;
+    color: white;
+    padding: 15px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 5px;
+}
+#get-started:hover{
+    background-color:darkred;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.ext2{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin:20px;
+}
+.ext2child{
+    margin-top: 80px;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.evenchild{
+    flex-wrap: wrap-reverse;
+}
+.ext2childchild{
+    flex-basis: 50%;
+    font-size: 25px;
+}
+.content{
+    scale: 0.75;
+}
+.linebreak{
+    border: 4px solid rgb(39, 38, 38);
+}
+.ext3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ext3child{
+    display: flex;
+    flex-flow: column wrap;
+}
+#lastheading{
+    text-align: center;
+}
+.enddetails{
+    background-color: rgb(54, 54, 54);
+    min-height: 60px;
+    color: white;
+    margin: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 90vw;
+}
+.footer{
+    margin-top: 4rem;
+    margin-bottom: 4 rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foot-label{
+    color: rgb(191, 190, 190);
+}
+#foot-link{
+    color: rgb(191, 190, 190);
+}
+.div-grid{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+}
+#paralast{
+    color:rgb(191, 190, 190) ;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 13px;
+}
+@media screen and (max-width:640px) {
+    .div-grid{
+        grid-template-columns:repeat(2,1fr) ;
+    }
+}
