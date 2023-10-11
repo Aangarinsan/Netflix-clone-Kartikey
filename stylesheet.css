@@ -208,7 +208,4 @@ p{
     .div-grid{
         grid-template-columns:repeat(2,1fr) ;
     }
-    .content{
-    scale: 0.5;
-    }
 }
