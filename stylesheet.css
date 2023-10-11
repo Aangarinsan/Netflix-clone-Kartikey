@@ -205,9 +205,6 @@ p{
     font-size: 13px;
 }
 @media screen and (max-width:640px) {
-    *{
-        overflow-x: scroll;
-    }
     .div-grid{
         grid-template-columns:repeat(2,1fr) ;
     }
