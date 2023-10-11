@@ -204,7 +204,7 @@ p{
     margin-bottom: 3rem;
     font-size: 13px;
 }
-@media screen and (max-width:620px) {
+@media screen and (max-width:550px) {
     .div-grid{
         grid-template-columns:repeat(2,1fr) ;
     }
