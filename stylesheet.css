@@ -206,7 +206,7 @@ p{
 }
 @media screen and (max-width:620px) {
     *{
-        overflow-x:hidden;
+        overflow-x: hidden;
     }
     .div-grid{
         grid-template-columns:repeat(2,1fr) ;
