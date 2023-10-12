@@ -204,11 +204,11 @@ p{
     margin-bottom: 3rem;
     font-size: 13px;
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:620px) {
     .div-grid{
         grid-template-columns:repeat(2,1fr) ;
     }
     .content{
-        max-width: 275px;
+        max-width: 300px;
     }
 }
